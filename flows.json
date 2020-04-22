@@ -70,5 +70,39 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "8f48e4b3.f034c8",
+        "type": "inject",
+        "z": "38c31371.7e7adc",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 100,
+        "y": 360,
+        "wires": [
+            [
+                "ec762179.6880e"
+            ]
+        ]
+    },
+    {
+        "id": "ec762179.6880e",
+        "type": "debug",
+        "z": "38c31371.7e7adc",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 440,
+        "y": 380,
+        "wires": []
     }
 ]
